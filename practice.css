@@ -1,0 +1,63 @@
+* {
+    font-weight: bold;
+    text-align: center;
+}
+
+header,
+footer {
+    background-color: darkgrey;
+}
+
+main,
+footer {
+    display: flex;
+}
+
+header {
+    background-color: darkgrey;
+    padding: 20px;
+    font-weight: bold;
+}
+
+main {
+    height: 60vh;
+}
+
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.info {
+    background-color: aliceblue;
+    padding: 20px 10px;
+}
+
+.maininfo {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    background-color: burlywood;
+    padding: 20px 30px;
+}
+
+.asideinfo {
+    width: 40%;
+    background-color: cadetblue;
+    padding: 30px 15px;
+}
+
+.allart-container article {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 40%;
+}
+
+article {
+    background-color: salmon;
+    padding: 20px 15px;
+}
